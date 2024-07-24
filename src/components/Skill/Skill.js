@@ -1,36 +1,39 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
 // Importing TagCloud for  3D Rotating Text Sphere
-import TagCloud from 'TagCloud';
+import TagCloud from "TagCloud";
 
-import '../../styles/Skill/Skill.scss';
+import "../../styles/Skill/Skill.scss";
 
 const Skill = () => {
   // Animation settings for Text Cloud
   useEffect(() => {
-    const container = '.tagcloud';
+    const container = ".tagcloud";
     let radii;
 
     // If 3D Text Sphere is not showing up after deployment remove the return (i.e, return() =>{}) function from below code
     return () => {
       const texts = [
-        'HTML',
-        'CSS',
-        'SASS',
-        'JavaScript',
-        'React',
-        'Vue',
-        'Nuxt',
-        'NodeJS',
-        'Shopify',
-        'Jquery',
-        'ES6',
-        'GIT',
-        'GITHUB',
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Angular",
+        "Python",
+        "Asp.Netcore",
+        "C#",
+        "Machine Learning",
+        "Deep Learning",
+        "Shopify",
+        "Amazon",
+        "Etsy",
+        "Jquery",
+        "ES6",
+        "GIT",
+        "GITHUB",
       ];
 
-
-      // Decrasing 'radius' value for small screen devices  
+      // Decrasing 'radius' value for small screen devices
       function radiusValue() {
         if (window.screen.width <= 778) {
           radii = 150;
@@ -42,13 +45,13 @@ const Skill = () => {
 
       const options = {
         radius: radiusValue(),
-        maxSpeed: 'normal',
-        initSpeed: 'normal',
+        maxSpeed: "normal",
+        initSpeed: "normal",
         keep: true,
       };
 
       TagCloud(container, texts, options);
-    }
+    };
   }, []);
   return (
     <>
@@ -114,11 +117,6 @@ const Skill = () => {
                         <b>Preprocessors:</b> PUG, SASS
                       </span>
                     </li>
-                    <li>
-                      <span>
-                        <b>Modular:</b> BEM
-                      </span>
-                    </li>
                   </ul>
                 </div>
                 <div className="skill__details">
@@ -126,15 +124,11 @@ const Skill = () => {
                   <ul>
                     <li>
                       <span>
-                        <b>Frameworks & Libraries:</b> &nbsp; React JS, React
-                        Native, Vue.js, Nuxt
+                        <b>Frameworks & Libraries:</b> &nbsp; React JS, Angular
                       </span>
                     </li>
                     <li>
                       <span>ES5/ES6</span>
-                    </li>
-                    <li>
-                      <span>Node.js</span>
                     </li>
                     <li>
                       <span>jQuery</span>
@@ -158,19 +152,28 @@ const Skill = () => {
                     <li>
                       <span>Shopify</span>
                     </li>
+                    <li>
+                      <span>Amazon</span>
+                    </li>
+                    <li>
+                      <span>Etsy</span>
+                    </li>
                   </ul>
                 </div>
                 <div className="skill__details">
                   <h4>Server Side</h4>
                   <ul>
                     <li>
-                      <span>Node.js</span>
+                      <span>Python</span>
                     </li>
                     <li>
-                      <span>Express.js</span>
+                      <span>Asp.Netcore</span>
                     </li>
                     <li>
-                      <span>MongoDB</span>
+                      <span>C#</span>
+                    </li>
+                    <li>
+                      <span>Sql Server</span>
                     </li>
                   </ul>
                 </div>
@@ -179,7 +182,11 @@ const Skill = () => {
 
             {/* 3D Text Cloud  */}
             <div className="skill__cloud">
-              <div className="tagcloud" data-aos="zoom-in-up" data-aos-offset="200"></div>
+              <div
+                className="tagcloud"
+                data-aos="zoom-in-up"
+                data-aos-offset="200"
+              ></div>
             </div>
           </div>
         </div>

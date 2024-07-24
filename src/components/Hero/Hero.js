@@ -99,10 +99,14 @@ const Hero = () => {
               data-aos-delay="1800"
             >
               <p>
-                I'm a passionate and responsible{" "}
-                <span>front-end developer</span>, with more than 1.5 years of
-                experience. Skilled in developing highly responsive websites and
-                mobile apps with elegant and efficient code.
+                A dedicated software engineer who provides a common
+                understanding in the industry Software solutions, Coding and
+                Troubleshooting. My main goal is to deliver strong, scalable and
+                modern software solutions In this article, you will find my
+                efforts, some of the projects I have worked on and information
+                about how i work My development experience has given me a solid
+                grounding in Software Development & years of hands-on practice
+                and passion for creating fabulous software applications.
               </p>
             </div>
 

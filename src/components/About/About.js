@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import "../../styles/About/About.scss";
 
 const About = () => {
-
   return (
     <>
       <div className="about" id="about">
@@ -73,8 +72,9 @@ const About = () => {
                   H<span>ello,</span>
                 </h2>
                 <p>
-                  I am <span>Your Name Here.</span> <br /> Highly passoinate
-                  front-end Developer with more than 1.5 years of experience.
+                  I am <span>Syed Hamza Ali Shah.</span> <br /> Highly
+                  passoinate Software Developer with more than 2 years of
+                  experience.
                 </p>
               </Link>
             </div>
@@ -93,7 +93,7 @@ const About = () => {
                   E<span>xperience</span>
                 </h2>
                 <p>
-                  <span>6 month of experience.</span>
+                  <span>2 years of experience</span>
                   <br />I have more than 1.5 years of experience in developing
                   highly responsive frontend of websites using React.js and
                   Vue.js
@@ -147,7 +147,9 @@ const About = () => {
                 <p>
                   <span>College Name </span>
                   <br />
-                  Description.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam vitae aliquid dolorum qui reiciendis mollitia, itaque dolores eaque ullam quo soluta libero! Natus.
+                  Description.... Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Nam vitae aliquid dolorum qui reiciendis
+                  mollitia, itaque dolores eaque ullam quo soluta libero! Natus.
                 </p>
               </Link>
             </div>
