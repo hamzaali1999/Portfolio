@@ -94,9 +94,8 @@ const About = () => {
                 </h2>
                 <p>
                   <span>2 years of experience</span>
-                  <br />I have more than 1.5 years of experience in developing
-                  highly responsive frontend of websites using React.js and
-                  Vue.js
+                  <br />I have more than 2 years of experience as a full-time
+                  employee as Asp Dot Net Core Developer in the Company Name
                 </p>
               </Link>
             </div>
@@ -112,22 +111,14 @@ const About = () => {
                   0<span>3</span>
                 </h1>
                 <h2>
-                  I<span>nternships</span>
+                  E<span>xperience</span>
                 </h2>
                 <p>
-                  <span>Interned at -</span> <br />
+                  <span>1 year of experience</span>
+                  <br />I have almost years of experience as a full-time
+                  employee Asp Dot Net Developer in the iSure Global Solutions
+                  Solutions
                 </p>
-                <ul>
-                  <li>
-                    <span>XYZ Pvt Ltd</span> - Front-end Developer{" "}
-                  </li>
-                  <li>
-                    <span>XYZ Pvt Ltd</span> - Front-end Developer{" "}
-                  </li>
-                  <li>
-                    <span>XYZ Pvt Ltd</span> - Front-end Developer{" "}
-                  </li>
-                </ul>
               </Link>
             </div>
             <div
@@ -145,11 +136,9 @@ const About = () => {
                   E<span>ngineering</span>
                 </h2>
                 <p>
-                  <span>College Name </span>
+                  <span>Comsats University Islamabad (Abbottabad Campus) </span>
                   <br />
-                  Description.... Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Nam vitae aliquid dolorum qui reiciendis
-                  mollitia, itaque dolores eaque ullam quo soluta libero! Natus.
+                  BS in Software Engineering
                 </p>
               </Link>
             </div>

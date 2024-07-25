@@ -123,7 +123,7 @@ const Contact = () => {
                   {" "}
                   <FontAwesomeIcon icon={faLocationDot} size="2x" />
                   <p>
-                    <span>Address:&nbsp;&nbsp;</span>Haripur, KPK, Pakistan
+                    <span>Address:&nbsp;&nbsp;</span>Lahore, Punjab, Pakistan
                   </p>
                 </li>
                 <li>

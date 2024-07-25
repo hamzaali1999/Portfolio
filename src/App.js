@@ -1,20 +1,20 @@
-import './App.scss';
+import "./App.scss";
 
 // Importing components
-import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
-import Works from './components/Works/Works';
-import About from './components/About/About';
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Works from "./components/Works/Works";
+import About from "./components/About/About";
 
 // React Router
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Intro from './components/About/RouteComponents/Intro';
-import Experience from './components/About/RouteComponents/Experience';
-import Internships from './components/About/RouteComponents/Internships';
-import Graduation from './components/About/RouteComponents/Graduation';
-import Skill from './components/Skill/Skill';
-import Footer from './components/Footer/Footer';
-import Contact from './components/Contact/Contact';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Intro from "./components/About/RouteComponents/Intro";
+import Experience from "./components/About/RouteComponents/Experience";
+import Internships from "./components/About/RouteComponents/Internships";
+import Graduation from "./components/About/RouteComponents/Graduation";
+import Skill from "./components/Skill/Skill";
+import Footer from "./components/Footer/Footer";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -42,4 +42,3 @@ function App() {
 }
 
 export default App;
-

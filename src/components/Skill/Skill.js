@@ -142,7 +142,13 @@ const Skill = () => {
                   <h4>Version Control Systems</h4>
                   <ul>
                     <li>
-                      <span>GIT</span>
+                      <span>Azure</span>
+                    </li>
+                    <li>
+                      <span>GITHUB</span>
+                    </li>
+                    <li>
+                      <span>Bitbucket</span>
                     </li>
                   </ul>
                 </div>
